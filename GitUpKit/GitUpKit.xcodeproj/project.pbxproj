@@ -37,6 +37,7 @@
 		30699ECC277D4BD800C42FF5 /* generic.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ECB277D4BD800C42FF5 /* generic.json */; };
 		30699ECE277D4D2D00C42FF5 /* tomorrow-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ECD277D4D2D00C42FF5 /* tomorrow-dark.json */; };
 		30699ED1277D4FB500C42FF5 /* tomorrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ED0277D4FB500C42FF5 /* tomorrow.json */; };
+		30699ED3277D5D0800C42FF5 /* objectivec.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ED2277D5D0800C42FF5 /* objectivec.json */; };
 		6D8E3F0B25D90E1300AAFC17 /* GIImageDiffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8E3F0A25D90E1300AAFC17 /* GIImageDiffView.m */; };
 		6D8E3F1025D90E3400AAFC17 /* GIImageDiffView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8E3F0F25D90E3400AAFC17 /* GIImageDiffView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		743BF1841B871C0200E1CA49 /* GCOrderedSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB5D01B84D4C400F00E79 /* GCOrderedSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -456,6 +457,7 @@
 		30699ECB277D4BD800C42FF5 /* generic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generic.json; sourceTree = "<group>"; };
 		30699ECD277D4D2D00C42FF5 /* tomorrow-dark.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "tomorrow-dark.json"; sourceTree = "<group>"; };
 		30699ED0277D4FB500C42FF5 /* tomorrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tomorrow.json; sourceTree = "<group>"; };
+		30699ED2277D5D0800C42FF5 /* objectivec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = objectivec.json; sourceTree = "<group>"; };
 		6D8E3F0A25D90E1300AAFC17 /* GIImageDiffView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIImageDiffView.m; sourceTree = "<group>"; };
 		6D8E3F0F25D90E3400AAFC17 /* GIImageDiffView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIImageDiffView.h; sourceTree = "<group>"; };
 		74EDB5D01B84D4C400F00E79 /* GCOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOrderedSet.h; sourceTree = "<group>"; };
@@ -747,6 +749,7 @@
 			isa = PBXGroup;
 			children = (
 				30699ECB277D4BD800C42FF5 /* generic.json */,
+				30699ED2277D5D0800C42FF5 /* objectivec.json */,
 			);
 			path = "Language Definitions";
 			sourceTree = "<group>";
@@ -1421,6 +1424,7 @@
 				E267E2471B84DC6400BAB377 /* GIConflictResolverViewController.xib in Resources */,
 				E267E2481B84DC6400BAB377 /* GIDiffViewController.xib in Resources */,
 				30699ECE277D4D2D00C42FF5 /* tomorrow-dark.json in Resources */,
+				30699ED3277D5D0800C42FF5 /* objectivec.json in Resources */,
 				E267E2491B84DC6400BAB377 /* GIMapViewController.xib in Resources */,
 				E267E24A1B84DC6400BAB377 /* GIQuickViewController.xib in Resources */,
 				E267E24B1B84DC6400BAB377 /* GISimpleCommitViewController.xib in Resources */,
