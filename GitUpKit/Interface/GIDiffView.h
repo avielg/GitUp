@@ -33,6 +33,7 @@
 - (CGFloat)updateLayoutForWidth:(CGFloat)width;
 
 @property(nonatomic, readonly) CFDictionaryRef textAttributes;
+@property(nonatomic, readonly) CFDictionaryRef codeAttributes;
 @property(nonatomic, readonly) CTLineRef addedLine;
 @property(nonatomic, readonly) CTLineRef deletedLine;
 @property(nonatomic, readonly) CGFloat lineHeight;

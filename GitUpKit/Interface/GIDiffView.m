@@ -47,6 +47,9 @@ const char* GIDiffViewMissingNewlinePlaceholder = "🚫\n";
   NSFont* font = [NSFont userFixedPitchFontOfSize:newSize];
   if (_textAttributes) CFRelease(_textAttributes);
   _textAttributes = CFBridgingRetain(@{(id)kCTFontAttributeName : font, (id)kCTForegroundColorFromContextAttributeName : (id)kCFBooleanTrue});
+  
+  if (_codeAttributes) CFRelease(_codeAttributes);
+  _codeAttributes = CFBridgingRetain(@{(id)kCTFontAttributeName : font});
 
   CFAttributedStringRef addedString = CFAttributedStringCreate(kCFAllocatorDefault, CFSTR("+"), _textAttributes);
   if (_addedLine) CFRelease(_addedLine);
@@ -125,6 +128,7 @@ const char* GIDiffViewMissingNewlinePlaceholder = "🚫\n";
   [[NSUserDefaults standardUserDefaults] removeObserver:self forKeyPath:GIUserDefaultKey_FontSize context:(__bridge void*)[GIDiffView class]];
 
   if (_textAttributes) CFRelease(_textAttributes);
+  if (_codeAttributes) CFRelease(_codeAttributes);
   if (_addedLine) CFRelease(_addedLine);
   if (_deletedLine) CFRelease(_deletedLine);
 }
