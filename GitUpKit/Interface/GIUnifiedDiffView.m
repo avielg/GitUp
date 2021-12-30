@@ -22,6 +22,8 @@
 
 #define kTextBottomPadding 0
 
+#import "RPSyntaxHighlighter.h"
+
 static CGFloat textLineNumberMargin(void) {
   return round(4 * GIFontSize());
 }
@@ -218,7 +220,15 @@ typedef struct {
     if (_framesetter) {
       CFRelease(_framesetter);
     }
-    CFAttributedStringSetAttributes(_string, CFRangeMake(0, CFAttributedStringGetLength(_string)), self.textAttributes, false);
+    
+    NSMutableAttributedString *attrStr = (__bridge_transfer NSMutableAttributedString *)(_string);
+    _string = (__bridge_retained CFMutableAttributedStringRef)
+      (
+          [RPSyntaxHighlighter highlightCode:attrStr.string
+                                withLanguage:@"objectivec"
+                           defaultAttributes:(__bridge NSDictionary *)self.codeAttributes]
+       );
+
     _framesetter = CTFramesetterCreateWithAttributedString(_string);
     CGFloat textWidth = width - 2 * textLineNumberMargin() - textInsetLeft() - textInsetRight();
     CGPathRef path = CGPathCreateWithRect(CGRectMake(0, 0, textWidth, CGFLOAT_MAX), NULL);
