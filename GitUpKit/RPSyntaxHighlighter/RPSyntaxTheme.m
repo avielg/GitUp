@@ -1,0 +1,67 @@
+//
+//  RPSyntaxColorScheme.m
+//  RPSyntaxHighlighter
+//
+//  Created by Rhys Powell on 19/01/13.
+//  Copyright (c) 2013 Rhys Powell. All rights reserved.
+//
+
+#import "RPSyntaxTheme.h"
+#import "NSColor+RPSyntaxAdditions.h"
+
+@interface RPSyntaxTheme ()
+
+@property (nonatomic, strong) NSDictionary *styles;
+
+@end
+
+@implementation RPSyntaxTheme
+
+- (instancetype)initWithContentsOfFile:(NSString *)filename
+{
+    if (self = [super init]) {
+      NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSString *jsonPath = [bundle pathForResource:filename ofType:@"json"];
+        NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
+        
+        NSError *error = nil;
+        self.styles = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error];
+        if (error) {
+            NSLog(@"[RPSyntaxHighlighter] Error loading theme JSON: %@", error.localizedDescription);
+        }
+    }
+    
+    return self;
+}
+
+- (NSDictionary *)attributesForScope:(NSString *)scope
+{
+    NSMutableDictionary *attributes = [[NSMutableDictionary alloc] init];
+    
+    NSColor *foregroundColor = [NSColor colorWithHexString:self.styles[scope][@"color"]];
+    NSColor *backgroundColor = [NSColor colorWithHexString:self.styles[scope][@"background"]];
+    NSString *fontName = self.styles[scope][@"font"];
+	  CGFloat fontSize = [self.styles[scope][@"fontSize"] floatValue];
+    
+    if (foregroundColor) {
+        attributes[NSForegroundColorAttributeName] = foregroundColor;
+    }
+    
+    if (backgroundColor) {
+        attributes[NSBackgroundColorAttributeName] = backgroundColor;
+    }
+    
+    if (fontName) {
+        attributes[NSFontAttributeName] = [NSFont fontWithName:fontName size:fontSize];
+    }
+    
+    return attributes;
+}
+
+- (NSDictionary *)defaultStyles
+{
+    return [self attributesForScope:@"default"];
+    
+}
+
+@end

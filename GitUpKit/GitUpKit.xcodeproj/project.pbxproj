@@ -14,6 +14,29 @@
 		1DADC0E225A25D63008C2C35 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBEE64C256B094000F96DAF /* libz.tbd */; };
 		1DF371CD22F5262300EF7BD9 /* GCLiveRepository+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF371CB22F5262300EF7BD9 /* GCLiveRepository+Utilities.h */; };
 		1DF371CE22F5262300EF7BD9 /* GCLiveRepository+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF371CC22F5262300EF7BD9 /* GCLiveRepository+Utilities.m */; };
+		30699EB6277D4BC400C42FF5 /* RPSyntaxHighlighter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EAC277D4BC300C42FF5 /* RPSyntaxHighlighter.h */; };
+		30699EB7277D4BC400C42FF5 /* RPSyntaxHighlighter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EAC277D4BC300C42FF5 /* RPSyntaxHighlighter.h */; };
+		30699EB8277D4BC400C42FF5 /* RPSyntaxHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EAD277D4BC300C42FF5 /* RPSyntaxHighlighter.m */; };
+		30699EB9277D4BC400C42FF5 /* RPSyntaxHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EAD277D4BC300C42FF5 /* RPSyntaxHighlighter.m */; };
+		30699EBA277D4BC400C42FF5 /* RPSyntaxTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EAE277D4BC300C42FF5 /* RPSyntaxTheme.h */; };
+		30699EBB277D4BC400C42FF5 /* RPSyntaxTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EAE277D4BC300C42FF5 /* RPSyntaxTheme.h */; };
+		30699EBC277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EAF277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.h */; };
+		30699EBD277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EAF277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.h */; };
+		30699EBE277D4BC400C42FF5 /* RPSyntaxTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB0277D4BC300C42FF5 /* RPSyntaxTheme.m */; };
+		30699EBF277D4BC400C42FF5 /* RPSyntaxTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB0277D4BC300C42FF5 /* RPSyntaxTheme.m */; };
+		30699EC0277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB1277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.m */; };
+		30699EC1277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB1277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.m */; };
+		30699EC2277D4BC400C42FF5 /* RPScopedMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB2277D4BC300C42FF5 /* RPScopedMatch.m */; };
+		30699EC3277D4BC400C42FF5 /* RPScopedMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB2277D4BC300C42FF5 /* RPScopedMatch.m */; };
+		30699EC4277D4BC400C42FF5 /* RPScopedMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EB3277D4BC300C42FF5 /* RPScopedMatch.h */; };
+		30699EC5277D4BC400C42FF5 /* RPScopedMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EB3277D4BC300C42FF5 /* RPScopedMatch.h */; };
+		30699EC6277D4BC400C42FF5 /* RPSyntaxMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EB4277D4BC300C42FF5 /* RPSyntaxMatcher.h */; };
+		30699EC7277D4BC400C42FF5 /* RPSyntaxMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30699EB4277D4BC300C42FF5 /* RPSyntaxMatcher.h */; };
+		30699EC8277D4BC400C42FF5 /* RPSyntaxMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB5277D4BC400C42FF5 /* RPSyntaxMatcher.m */; };
+		30699EC9277D4BC400C42FF5 /* RPSyntaxMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699EB5277D4BC400C42FF5 /* RPSyntaxMatcher.m */; };
+		30699ECC277D4BD800C42FF5 /* generic.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ECB277D4BD800C42FF5 /* generic.json */; };
+		30699ECE277D4D2D00C42FF5 /* tomorrow-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ECD277D4D2D00C42FF5 /* tomorrow-dark.json */; };
+		30699ED1277D4FB500C42FF5 /* tomorrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699ED0277D4FB500C42FF5 /* tomorrow.json */; };
 		6D8E3F0B25D90E1300AAFC17 /* GIImageDiffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8E3F0A25D90E1300AAFC17 /* GIImageDiffView.m */; };
 		6D8E3F1025D90E3400AAFC17 /* GIImageDiffView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8E3F0F25D90E3400AAFC17 /* GIImageDiffView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		743BF1841B871C0200E1CA49 /* GCOrderedSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB5D01B84D4C400F00E79 /* GCOrderedSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -420,6 +443,19 @@
 		0AC8525823A122C400479160 /* GILaunchServicesLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GILaunchServicesLocator.m; sourceTree = "<group>"; };
 		1DF371CB22F5262300EF7BD9 /* GCLiveRepository+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCLiveRepository+Utilities.h"; sourceTree = "<group>"; };
 		1DF371CC22F5262300EF7BD9 /* GCLiveRepository+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GCLiveRepository+Utilities.m"; sourceTree = "<group>"; };
+		30699EAC277D4BC300C42FF5 /* RPSyntaxHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSyntaxHighlighter.h; sourceTree = "<group>"; };
+		30699EAD277D4BC300C42FF5 /* RPSyntaxHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSyntaxHighlighter.m; sourceTree = "<group>"; };
+		30699EAE277D4BC300C42FF5 /* RPSyntaxTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSyntaxTheme.h; sourceTree = "<group>"; };
+		30699EAF277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RPSyntaxAdditions.h"; sourceTree = "<group>"; };
+		30699EB0277D4BC300C42FF5 /* RPSyntaxTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSyntaxTheme.m; sourceTree = "<group>"; };
+		30699EB1277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RPSyntaxAdditions.m"; sourceTree = "<group>"; };
+		30699EB2277D4BC300C42FF5 /* RPScopedMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPScopedMatch.m; sourceTree = "<group>"; };
+		30699EB3277D4BC300C42FF5 /* RPScopedMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPScopedMatch.h; sourceTree = "<group>"; };
+		30699EB4277D4BC300C42FF5 /* RPSyntaxMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSyntaxMatcher.h; sourceTree = "<group>"; };
+		30699EB5277D4BC400C42FF5 /* RPSyntaxMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSyntaxMatcher.m; sourceTree = "<group>"; };
+		30699ECB277D4BD800C42FF5 /* generic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generic.json; sourceTree = "<group>"; };
+		30699ECD277D4D2D00C42FF5 /* tomorrow-dark.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "tomorrow-dark.json"; sourceTree = "<group>"; };
+		30699ED0277D4FB500C42FF5 /* tomorrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tomorrow.json; sourceTree = "<group>"; };
 		6D8E3F0A25D90E1300AAFC17 /* GIImageDiffView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIImageDiffView.m; sourceTree = "<group>"; };
 		6D8E3F0F25D90E3400AAFC17 /* GIImageDiffView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIImageDiffView.h; sourceTree = "<group>"; };
 		74EDB5D01B84D4C400F00E79 /* GCOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOrderedSet.h; sourceTree = "<group>"; };
@@ -688,6 +724,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30699EAB277D4BAC00C42FF5 /* RPSyntaxHighlighter */ = {
+			isa = PBXGroup;
+			children = (
+				30699ECF277D4D3D00C42FF5 /* Themes */,
+				30699ECA277D4BD000C42FF5 /* Language Definitions */,
+				30699EB3277D4BC300C42FF5 /* RPScopedMatch.h */,
+				30699EB2277D4BC300C42FF5 /* RPScopedMatch.m */,
+				30699EAC277D4BC300C42FF5 /* RPSyntaxHighlighter.h */,
+				30699EAD277D4BC300C42FF5 /* RPSyntaxHighlighter.m */,
+				30699EB4277D4BC300C42FF5 /* RPSyntaxMatcher.h */,
+				30699EB5277D4BC400C42FF5 /* RPSyntaxMatcher.m */,
+				30699EAE277D4BC300C42FF5 /* RPSyntaxTheme.h */,
+				30699EB0277D4BC300C42FF5 /* RPSyntaxTheme.m */,
+				30699EAF277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.h */,
+				30699EB1277D4BC300C42FF5 /* NSColor+RPSyntaxAdditions.m */,
+			);
+			path = RPSyntaxHighlighter;
+			sourceTree = "<group>";
+		};
+		30699ECA277D4BD000C42FF5 /* Language Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				30699ECB277D4BD800C42FF5 /* generic.json */,
+			);
+			path = "Language Definitions";
+			sourceTree = "<group>";
+		};
+		30699ECF277D4D3D00C42FF5 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				30699ECD277D4D2D00C42FF5 /* tomorrow-dark.json */,
+				30699ED0277D4FB500C42FF5 /* tomorrow.json */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
 		DBBFFF4E2567370900AE139C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -871,6 +943,7 @@
 		E2C338A219F8562F00063D95 = {
 			isa = PBXGroup;
 			children = (
+				30699EAB277D4BAC00C42FF5 /* RPSyntaxHighlighter */,
 				E21752ED1B914EC000BE234A /* libgit2.xcodeproj */,
 				E267E1AA1B84D6C500BAB377 /* GitUpKit.h */,
 				E267E1AC1B84D6C500BAB377 /* Info.plist */,
@@ -1065,6 +1138,7 @@
 				E21753551B91626C00BE234A /* GCRepository+Config.h in Headers */,
 				E21753561B91626C00BE234A /* GCRepository+HEAD.h in Headers */,
 				E21753571B91626C00BE234A /* GCRepository+Mock.h in Headers */,
+				30699EB7277D4BC400C42FF5 /* RPSyntaxHighlighter.h in Headers */,
 				E21753581B91626C00BE234A /* GCRepository+Reflog.h in Headers */,
 				E21753591B91626C00BE234A /* GCRepository+Reset.h in Headers */,
 				E217535A1B91626C00BE234A /* GCRepository+Status.h in Headers */,
@@ -1081,15 +1155,19 @@
 				E2B987971B9172470097629D /* GIConstants.h in Headers */,
 				E2B987981B9172470097629D /* GIFunctions.h in Headers */,
 				E2B987991B9172470097629D /* GIGraph.h in Headers */,
+				30699EBD277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.h in Headers */,
 				E2B9879A1B9172470097629D /* GIInterface.h in Headers */,
+				30699EC5277D4BC400C42FF5 /* RPScopedMatch.h in Headers */,
 				E2B9879B1B9172470097629D /* GILayer.h in Headers */,
 				E2B9879C1B9172470097629D /* GILine.h in Headers */,
+				30699EC7277D4BC400C42FF5 /* RPSyntaxMatcher.h in Headers */,
 				E2B9879D1B9172470097629D /* GINode.h in Headers */,
 				E21753371B91623200BE234A /* XLASLLogger.h in Headers */,
 				E21753381B91623200BE234A /* XLCallbackLogger.h in Headers */,
 				E21753391B91623200BE234A /* XLFacility.h in Headers */,
 				E217533A1B91623200BE234A /* XLFacilityCMacros.h in Headers */,
 				E217533B1B91623200BE234A /* XLFacilityMacros.h in Headers */,
+				30699EBB277D4BC400C42FF5 /* RPSyntaxTheme.h in Headers */,
 				E217533C1B91623200BE234A /* XLFileLogger.h in Headers */,
 				E217533D1B91623200BE234A /* XLFunctions.h in Headers */,
 				E217533E1B91623200BE234A /* XLLogger.h in Headers */,
@@ -1107,6 +1185,7 @@
 				E267E1B51B84D7D200BAB377 /* GCTag.h in Headers */,
 				E267E1B61B84D7D500BAB377 /* GCSubmodule.h in Headers */,
 				E267E1B71B84D7D800BAB377 /* GCStash.h in Headers */,
+				30699EBC277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.h in Headers */,
 				E267E1B81B84D7DE00BAB377 /* GCSQLiteRepository.h in Headers */,
 				E267E1B91B84D7E100BAB377 /* GCSnapshot.h in Headers */,
 				E267E1BA1B84D80500BAB377 /* GCBranch.h in Headers */,
@@ -1132,17 +1211,20 @@
 				E267E1CB1B84D80500BAB377 /* GCRepository+Config.h in Headers */,
 				E267E1CC1B84D80500BAB377 /* GCRepository+HEAD.h in Headers */,
 				E267E1CD1B84D80500BAB377 /* GCRepository+Mock.h in Headers */,
+				30699EBA277D4BC400C42FF5 /* RPSyntaxTheme.h in Headers */,
 				E267E1CE1B84D80500BAB377 /* GCRepository+Reflog.h in Headers */,
 				E267E1CF1B84D80500BAB377 /* GCRepository+Reset.h in Headers */,
 				E267E1D01B84D80500BAB377 /* GCRepository+Status.h in Headers */,
 				E267E1F01B84D85500BAB377 /* GCHistory+Rewrite.h in Headers */,
 				E267E1F11B84D85500BAB377 /* GCRepository+Index.h in Headers */,
 				743BF1841B871C0200E1CA49 /* GCOrderedSet.h in Headers */,
+				30699EC6277D4BC400C42FF5 /* RPSyntaxMatcher.h in Headers */,
 				E267E2091B84DB4200BAB377 /* GIBranch.h in Headers */,
 				E267E20A1B84DB4200BAB377 /* GIConstants.h in Headers */,
 				E267E20B1B84DB4200BAB377 /* GIDiffView.h in Headers */,
 				E267E20C1B84DB4200BAB377 /* GIFunctions.h in Headers */,
 				E267E20D1B84DB4200BAB377 /* GIGraph.h in Headers */,
+				30699EC4277D4BC400C42FF5 /* RPScopedMatch.h in Headers */,
 				E267E20E1B84DB4200BAB377 /* GIGraphView.h in Headers */,
 				E267E20F1B84DB4200BAB377 /* GIInterface.h in Headers */,
 				E267E2101B84DB4200BAB377 /* GILayer.h in Headers */,
@@ -1175,6 +1257,7 @@
 				E267E2521B84DC7D00BAB377 /* GIConflictResolverViewController.h in Headers */,
 				E267E2531B84DC7D00BAB377 /* GIDiffViewController.h in Headers */,
 				E267E2541B84DC7D00BAB377 /* GIMapViewController.h in Headers */,
+				30699EB6277D4BC400C42FF5 /* RPSyntaxHighlighter.h in Headers */,
 				E267E2551B84DC7D00BAB377 /* GIMapViewController+Operations.h in Headers */,
 				E267E2561B84DC7D00BAB377 /* GIQuickViewController.h in Headers */,
 				E267E2571B84DC7D00BAB377 /* GISimpleCommitViewController.h in Headers */,
@@ -1326,15 +1409,18 @@
 				E267E23E1B84DC4B00BAB377 /* GIDiffContentsViewController.xib in Resources */,
 				E267E23F1B84DC4B00BAB377 /* GIDiffFilesViewController.xib in Resources */,
 				E267E2401B84DC4B00BAB377 /* GISnapshotListViewController.xib in Resources */,
+				30699ECC277D4BD800C42FF5 /* generic.json in Resources */,
 				E267E2411B84DC4B00BAB377 /* GIUnifiedReflogViewController.xib in Resources */,
 				E267E2421B84DC6300BAB377 /* Views.xcassets in Resources */,
 				E267E2431B84DC6300BAB377 /* GIAdvancedCommitViewController.xib in Resources */,
+				30699ED1277D4FB500C42FF5 /* tomorrow.json in Resources */,
 				E267E2441B84DC6400BAB377 /* GICommitRewriterViewController.xib in Resources */,
 				E267E2451B84DC6400BAB377 /* GICommitSplitterViewController.xib in Resources */,
 				E267E2461B84DC6400BAB377 /* GIConfigViewController.xib in Resources */,
 				E267E2651B84DCA700BAB377 /* GIConfigViewController-Help.txt in Resources */,
 				E267E2471B84DC6400BAB377 /* GIConflictResolverViewController.xib in Resources */,
 				E267E2481B84DC6400BAB377 /* GIDiffViewController.xib in Resources */,
+				30699ECE277D4D2D00C42FF5 /* tomorrow-dark.json in Resources */,
 				E267E2491B84DC6400BAB377 /* GIMapViewController.xib in Resources */,
 				E267E24A1B84DC6400BAB377 /* GIQuickViewController.xib in Resources */,
 				E267E24B1B84DC6400BAB377 /* GISimpleCommitViewController.xib in Resources */,
@@ -1406,23 +1492,28 @@
 				E217537C1B91634C00BE234A /* GCRepository+Status.m in Sources */,
 				E217537D1B91634C00BE234A /* GCSnapshot.m in Sources */,
 				E217537E1B91634C00BE234A /* GCSQLiteRepository.m in Sources */,
+				30699EBF277D4BC400C42FF5 /* RPSyntaxTheme.m in Sources */,
 				E217537F1B91634C00BE234A /* GCStash.m in Sources */,
 				E21753801B91634C00BE234A /* GCSubmodule.m in Sources */,
 				E21753811B91634C00BE234A /* GCTag.m in Sources */,
 				E21753821B91635800BE234A /* GCHistory+Rewrite.m in Sources */,
 				E21753831B91635800BE234A /* GCRepository+Index.m in Sources */,
+				30699EC3277D4BC400C42FF5 /* RPScopedMatch.m in Sources */,
 				E21753841B91635800BE234A /* GCRepository+Utilities.m in Sources */,
 				E2B9878F1B9171D20097629D /* GIBranch.m in Sources */,
 				E2B987901B9171D20097629D /* GIFunctions.m in Sources */,
 				E2B987911B9171D20097629D /* GIGraph.m in Sources */,
 				E2B987921B9171D20097629D /* GILayer.m in Sources */,
 				E2B987931B9171D20097629D /* GILine.m in Sources */,
+				30699EC1277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.m in Sources */,
 				E2B987941B9171D20097629D /* GINode.m in Sources */,
 				E2B987951B9171D20097629D /* GIPrivate.m in Sources */,
 				E21753911B91684300BE234A /* XLASLLogger.m in Sources */,
 				E21753921B91684300BE234A /* XLCallbackLogger.m in Sources */,
 				E21753931B91684300BE234A /* XLFacility.m in Sources */,
+				30699EB9277D4BC400C42FF5 /* RPSyntaxHighlighter.m in Sources */,
 				E21753941B91684300BE234A /* XLFileLogger.m in Sources */,
+				30699EC9277D4BC400C42FF5 /* RPSyntaxMatcher.m in Sources */,
 				E21753951B91684300BE234A /* XLFunctions.m in Sources */,
 				E21753961B91684300BE234A /* XLLogger.m in Sources */,
 				E21753971B91684300BE234A /* XLLogRecord.m in Sources */,
@@ -1446,6 +1537,7 @@
 				E267E1D81B84D83100BAB377 /* GCIndex.m in Sources */,
 				E267E1D91B84D83100BAB377 /* GCLiveRepository.m in Sources */,
 				DBDFBC1D22B61290003EEC6C /* NSColor+GINamedColors.m in Sources */,
+				30699EB8277D4BC400C42FF5 /* RPSyntaxHighlighter.m in Sources */,
 				E267E1DA1B84D83100BAB377 /* GCObject.m in Sources */,
 				749786941B85AAB10065BD55 /* GCOrderedSet.m in Sources */,
 				E267E1DB1B84D83100BAB377 /* GCPrivate.m in Sources */,
@@ -1465,6 +1557,7 @@
 				E267E1EA1B84D83100BAB377 /* GCStash.m in Sources */,
 				E267E1EB1B84D83100BAB377 /* GCSubmodule.m in Sources */,
 				E267E1EC1B84D83100BAB377 /* GCTag.m in Sources */,
+				30699EC2277D4BC400C42FF5 /* RPScopedMatch.m in Sources */,
 				E267E1ED1B84D84900BAB377 /* GCHistory+Rewrite.m in Sources */,
 				E267E1EE1B84D84900BAB377 /* GCRepository+Index.m in Sources */,
 				E267E1EF1B84D84900BAB377 /* GCRepository+Utilities.m in Sources */,
@@ -1474,6 +1567,7 @@
 				E267E2181B84DB6E00BAB377 /* GIGraph.m in Sources */,
 				E267E2191B84DB6E00BAB377 /* GIGraphView.m in Sources */,
 				E267E21A1B84DB6E00BAB377 /* GILayer.m in Sources */,
+				30699EBE277D4BC400C42FF5 /* RPSyntaxTheme.m in Sources */,
 				E267E21B1B84DB6E00BAB377 /* GILine.m in Sources */,
 				E267E21C1B84DB6E00BAB377 /* GINode.m in Sources */,
 				E267E21D1B84DB6E00BAB377 /* GIPrivate.m in Sources */,
@@ -1492,6 +1586,7 @@
 				E267E2321B84DC2600BAB377 /* GIDiffContentsViewController.m in Sources */,
 				E267E2331B84DC2600BAB377 /* GIDiffFilesViewController.m in Sources */,
 				1DF371CE22F5262300EF7BD9 /* GCLiveRepository+Utilities.m in Sources */,
+				30699EC8277D4BC400C42FF5 /* RPSyntaxMatcher.m in Sources */,
 				E267E2341B84DC2600BAB377 /* GISnapshotListViewController.m in Sources */,
 				E267E2351B84DC2600BAB377 /* GIUnifiedReflogViewController.m in Sources */,
 				E267E2591B84DCA100BAB377 /* GIAdvancedCommitViewController.m in Sources */,
@@ -1504,6 +1599,7 @@
 				E267E25F1B84DCA100BAB377 /* GIDiffViewController.m in Sources */,
 				E267E2601B84DCA100BAB377 /* GIMapViewController.m in Sources */,
 				E267E2611B84DCA100BAB377 /* GIMapViewController+Operations.m in Sources */,
+				30699EC0277D4BC400C42FF5 /* NSColor+RPSyntaxAdditions.m in Sources */,
 				E267E2621B84DCA100BAB377 /* GIQuickViewController.m in Sources */,
 				E267E2631B84DCA100BAB377 /* GISimpleCommitViewController.m in Sources */,
 				E267E2641B84DCA100BAB377 /* GIStashListViewController.m in Sources */,
