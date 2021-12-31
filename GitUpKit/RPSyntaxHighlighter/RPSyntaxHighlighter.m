@@ -41,7 +41,7 @@
     
     highlighter.code = code;
     
-    NSMutableString *name = [@"tomorrow" mutableCopy];
+    NSMutableString *name = [@"xcode" mutableCopy];
     if (@available(macOS 11.0, *)) {
         if ([[NSAppearance currentDrawingAppearance] name] == NSAppearanceNameDarkAqua) {
             [name appendString:@"-dark"];

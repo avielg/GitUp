@@ -1,0 +1,44 @@
+{
+  "default" : {
+    "color" : "000000",
+  },
+  "keyword" : {
+    "color" : "A0459F",
+    "bold" : true
+  },
+  "constant" : {
+    "color" : "7951B2"
+  },
+  "numeric" : {
+    "color" : "2729CF"
+  },
+  "string" : {
+    "color" : "C13E2A"
+  },
+  "function" : {
+    "color" : "4F7E86"
+  },
+  "method" : {
+    "color" : "4F7E86"
+  },
+  "operator" : {
+    "color" : "000000"
+  },
+  "comment" : {
+    "color" : "478325",
+    "italic" : true
+  },
+  "preprocessor" : {
+    "color" : "714B30"
+  },
+  "attribute" : {
+    "color" : "7951B2"
+  },
+  "url" : {
+    "color" : "1D36F5",
+    "italic" : true
+  },
+  "type" : {
+    "color" : "4624A9"
+  }
+}
