@@ -19,9 +19,18 @@
 @synthesize defaultAttributes = _defaultAttributes;
 
 + (NSAttributedString *)highlightCode:(NSString *)code
-                         withLanguage:(NSString *)language
+                         withExtension:(NSString *)extension
 {
-  return [self highlightCode:code withLanguage:language defaultAttributes:nil];
+  return [self highlightCode:code withExtension:extension defaultAttributes:nil];
+}
+
++ (NSAttributedString *)highlightCode:(NSString *)code
+                        withExtension:(NSString *)extension
+                    defaultAttributes:(NSDictionary *)defaultAttributes
+{
+  return [self highlightCode:code
+                withLanguage:[self languageForExtension:extension]
+           defaultAttributes:defaultAttributes];
 }
 
 + (NSAttributedString *)highlightCode:(NSString *)code
@@ -43,6 +52,15 @@
     highlighter.language = language;
   
     return highlighter.highlightedCode;
+}
+
++ (NSString *)languageForExtension:(NSString *)nsExtension
+{
+  const char *extension = [nsExtension cStringUsingEncoding:NSUTF8StringEncoding];
+  return
+  !strcmp(extension, "swift") ? @"swift"
+  : (!strcmp(extension, "m") | !strcmp(extension, "mm") | !strcmp(extension, "h")) ? @"objectivec"
+  : @"generic";
 }
 
 - (NSArray *)matchers

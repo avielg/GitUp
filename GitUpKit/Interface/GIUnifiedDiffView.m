@@ -225,7 +225,7 @@ typedef struct {
     _string = (__bridge_retained CFMutableAttributedStringRef)
       (
           [RPSyntaxHighlighter highlightCode:attrStr.string
-                                withLanguage:@"objectivec"
+                               withExtension:[self.canonicalPath pathExtension]
                            defaultAttributes:(__bridge NSDictionary *)self.codeAttributes]
        );
 

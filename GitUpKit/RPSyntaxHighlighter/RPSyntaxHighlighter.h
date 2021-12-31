@@ -45,9 +45,10 @@
  
  @return a syntax highlighted `NSAttributedString`
  */
-+ (NSAttributedString *)highlightCode:(NSString *)code withLanguage:(NSString *)language;
++ (NSAttributedString *)highlightCode:(NSString *)code
+                        withExtension:(NSString *)extension;
 
 + (NSAttributedString *)highlightCode:(NSString *)code
-                         withLanguage:(NSString *)language
+                        withExtension:(NSString *)extension
                     defaultAttributes:(NSDictionary *)defaultAttributes;
 @end
