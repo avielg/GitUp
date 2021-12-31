@@ -29,6 +29,7 @@
 @property(nonatomic, weak) id<GIDiffViewDelegate> delegate;
 @property(nonatomic, strong) NSColor* backgroundColor;
 @property(nonatomic, strong) GCDiffPatch* patch;
+@property(nonatomic, strong) NSString* canonicalPath;
 @property(nonatomic, readonly, getter=isEmpty) BOOL empty;
 - (CGFloat)updateLayoutForWidth:(CGFloat)width;
 

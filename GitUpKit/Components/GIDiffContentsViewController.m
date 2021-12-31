@@ -255,6 +255,7 @@ static NSImage* _untrackedImage = nil;
       GIDiffView* diffView = [[diffViewClass alloc] initWithFrame:NSZeroRect];
       diffView.delegate = self;
       diffView.patch = data.diffView.patch;
+      diffView.canonicalPath = data.delta.canonicalPath;
       data.diffView.delegate = nil;
       data.diffView.patch = nil;
       data.diffView = diffView;
@@ -355,6 +356,7 @@ static NSImage* _untrackedImage = nil;
               GIDiffView* diffView = [[[self _diffViewClassForChange:delta.change] alloc] initWithFrame:NSZeroRect];
               diffView.delegate = self;
               diffView.patch = patch;
+              diffView.canonicalPath = data.delta.canonicalPath;
               data.diffView = diffView;
             }
           } else {
