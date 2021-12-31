@@ -34,15 +34,17 @@
     return self;
 }
 
-- (NSDictionary *)attributesForScope:(NSString *)scope
+- (NSDictionary *)attributesForScope:(NSString *)scope defaultFont:(NSFont *)defaultFont
 {
     NSMutableDictionary *attributes = [[NSMutableDictionary alloc] init];
-    
-    NSColor *foregroundColor = [NSColor colorWithHexString:self.styles[scope][@"color"]];
-    NSColor *backgroundColor = [NSColor colorWithHexString:self.styles[scope][@"background"]];
-    NSString *fontName = self.styles[scope][@"font"];
-	  CGFloat fontSize = [self.styles[scope][@"fontSize"] floatValue];
-    
+
+    NSDictionary *style = self.styles[scope];
+    NSColor *foregroundColor = [NSColor colorWithHexString:style[@"color"]];
+    NSColor *backgroundColor = [NSColor colorWithHexString:style[@"background"]];
+    NSString *fontName = style[@"font"];
+    CGFloat fontSize = [style[@"fontSize"] floatValue];
+    BOOL isBold = [style[@"bold"] boolValue];
+
     if (foregroundColor) {
         attributes[NSForegroundColorAttributeName] = foregroundColor;
     }
@@ -54,14 +56,19 @@
     if (fontName) {
         attributes[NSFontAttributeName] = [NSFont fontWithName:fontName size:fontSize];
     }
+
+    if (isBold) {
+      NSFontManager *fontMan = [NSFontManager sharedFontManager];
+      NSFont *font = defaultFont ?: [NSFont systemFontOfSize:[NSFont systemFontSize]];
+      attributes[NSFontAttributeName] = [fontMan convertFont:font toHaveTrait:NSBoldFontMask];
+    }
     
     return attributes;
 }
 
 - (NSDictionary *)defaultStyles
 {
-    return [self attributesForScope:@"default"];
-    
+    return [self attributesForScope:@"default" defaultFont:nil];
 }
 
 @end

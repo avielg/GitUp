@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Rhys Powell. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <AppKit/AppKit.h>
 
 @interface RPSyntaxTheme : NSObject
 
@@ -33,7 +33,7 @@
  
  @return an NSDictionary of NSTextAttributes
  */
-- (NSDictionary *)attributesForScope:(NSString *)scope;
+- (NSDictionary *)attributesForScope:(NSString *)scope defaultFont:(NSFont *)defaultFont;
 
 /**
  Default styles for the theme

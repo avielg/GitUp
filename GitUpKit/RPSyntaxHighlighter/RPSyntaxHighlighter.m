@@ -116,6 +116,8 @@
         [highligtedCode addAttributes:self.defaultAttributes range:range];
     }
 
+    NSFont *defaultFont = self.defaultAttributes[NSFontAttributeName];
+
     [self.scopedMatches enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         RPScopedMatch *match = obj;
         [match.scopes enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
@@ -129,7 +131,7 @@
             if ([line hasPrefix:@"@@"] && [line hasSuffix:@"@@"]) {
               [highligtedCode addAttribute:(NSString *)kCTForegroundColorFromContextAttributeName value:@YES range:lineRange];
             } else {
-              NSDictionary *textAttributes = [self.theme attributesForScope:obj];
+              NSDictionary *textAttributes = [self.theme attributesForScope:obj defaultFont:defaultFont];
               [highligtedCode addAttributes:textAttributes range:match.range];
             }
         }];
