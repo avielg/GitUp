@@ -1,0 +1,34 @@
+[
+  {
+    "scopes" : ["comment"],
+    "pattern" : "(\\/\\/.*)|(\\/\\*[\\s\\S]*?\\*\\/)"
+  },
+  {
+    "scopes" : ["string"],
+    "pattern" : "(&quot;.*?&quot;)|('(.|\\\\.|\\\\u[\\dA-Fa-f]{4})')"
+  },
+  {
+    "scopes" : ["keyword", "language"],
+    "pattern" : "((import|package)\\s(.+))|(\\b(abstract|assert|boolean|break|byte|case|catch|char|class|const|continue|default|do|double|else|enum|extends|final|finally|float|for|goto|if|implements|import|instanceof|int|interface|long|native|new|package|private|protected|public|return|short|static|strictfp|super|switch|synchronized|this|throw|throws|transient|try|void|volatile|while)\\b)"
+  },
+  {
+    "scopes" : ["constant"],
+    "pattern" : "\\b(false|null|true|[A-Z_]+)\\b"
+  },
+  {
+    "scopes" : ["numeric"],
+    "pattern" : "\\b(0x[\\da-f]+|\\d+)L?\\b"
+  },
+  {
+    "scopes" : ["operator"],
+    "pattern" : "(\\+{1,2}|-{1,2}|~|!|\\*|\\/|%|(?:&lt;){1,2}|(?:&gt;){1,3}|instanceof|(?:&amp;){1,2}|\\^|\\|{1,2}|\\?|:|(?:=|!|\\+|-|\\*|\\/|%|\\^|\\||(?:&lt;){1,2}|(?:&gt;){1,3})?=)"
+  },
+  {
+    "scopes" : ["function", "call"],
+    "pattern" : "([^@\\.\\s]+)\\("
+  },
+  {
+    "scopes" : ["type"],
+    "pattern" : "\\b([A-Z]\\w*)\\b"
+  }
+]

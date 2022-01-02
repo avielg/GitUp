@@ -60,6 +60,7 @@
   return
   !strcmp(extension, "swift") ? @"swift"
   : (!strcmp(extension, "m") | !strcmp(extension, "mm") | !strcmp(extension, "h")) ? @"objectivec"
+  : !strcmp(extension, "java") ? @"java"
   : @"generic";
 }
 
