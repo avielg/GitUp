@@ -43,6 +43,7 @@
 		30699EE9277FC50B00C42FF5 /* xcode-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699EE8277FC50B00C42FF5 /* xcode-dark.json */; };
 		30699EEB2781F7CB00C42FF5 /* java.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699EEA2781F7CB00C42FF5 /* java.json */; };
 		30699FD32782583500C42FF5 /* php.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699FD22782583500C42FF5 /* php.json */; };
+		30699FD72782622A00C42FF5 /* python.json in Resources */ = {isa = PBXBuildFile; fileRef = 30699FD62782622A00C42FF5 /* python.json */; };
 		6D8E3F0B25D90E1300AAFC17 /* GIImageDiffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8E3F0A25D90E1300AAFC17 /* GIImageDiffView.m */; };
 		6D8E3F1025D90E3400AAFC17 /* GIImageDiffView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8E3F0F25D90E3400AAFC17 /* GIImageDiffView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		743BF1841B871C0200E1CA49 /* GCOrderedSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB5D01B84D4C400F00E79 /* GCOrderedSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -468,6 +469,7 @@
 		30699EE8277FC50B00C42FF5 /* xcode-dark.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "xcode-dark.json"; sourceTree = "<group>"; };
 		30699EEA2781F7CB00C42FF5 /* java.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = java.json; sourceTree = "<group>"; };
 		30699FD22782583500C42FF5 /* php.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = php.json; sourceTree = "<group>"; };
+		30699FD62782622A00C42FF5 /* python.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = python.json; sourceTree = "<group>"; };
 		6D8E3F0A25D90E1300AAFC17 /* GIImageDiffView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIImageDiffView.m; sourceTree = "<group>"; };
 		6D8E3F0F25D90E3400AAFC17 /* GIImageDiffView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIImageDiffView.h; sourceTree = "<group>"; };
 		74EDB5D01B84D4C400F00E79 /* GCOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOrderedSet.h; sourceTree = "<group>"; };
@@ -763,6 +765,7 @@
 				30699ED4277F811C00C42FF5 /* swift.json */,
 				30699EEA2781F7CB00C42FF5 /* java.json */,
 				30699FD22782583500C42FF5 /* php.json */,
+				30699FD62782622A00C42FF5 /* python.json */,
 			);
 			path = "Language Definitions";
 			sourceTree = "<group>";
@@ -1439,6 +1442,7 @@
 				30699EEB2781F7CB00C42FF5 /* java.json in Resources */,
 				30699EE9277FC50B00C42FF5 /* xcode-dark.json in Resources */,
 				E267E2471B84DC6400BAB377 /* GIConflictResolverViewController.xib in Resources */,
+				30699FD72782622A00C42FF5 /* python.json in Resources */,
 				E267E2481B84DC6400BAB377 /* GIDiffViewController.xib in Resources */,
 				30699ECE277D4D2D00C42FF5 /* tomorrow-dark.json in Resources */,
 				30699FD32782583500C42FF5 /* php.json in Resources */,

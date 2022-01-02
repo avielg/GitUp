@@ -1,0 +1,47 @@
+[
+  {
+    "scopes" : ["comment"],
+    "pattern" : "(#.*)|(('{3}|&quot;{3})[\\s\\S]*?('{3}|&quot;{3}))"
+  },
+  {
+    "scopes" : ["preprocessor"],
+    "pattern" : "(#!.*)|(__\\(.*?\\)__)|(@([\\w\\.]+))"
+  },
+  {
+    "scopes" : ["string"],
+    "pattern" : "(&quot;.*?&quot;)|('.*?')"
+  },
+  {
+    "scopes" : ["keyword", "language"],
+    "pattern" : "\\b(except|self|object|pass|lambda|with|is|not|in|or|and|from|if|elif|else|for|while|raise|del)(?=\\b)"
+  },
+  {
+    "scopes" : ["constant"],
+    "pattern" : "\\b(import|None|True|False|NotImplemented|\\.\\.\\.)\\b"
+  },
+  {
+    "scopes" : ["numeric"],
+    "pattern" : "\\b[_0-9\\.]*"
+  },
+  {
+    "scopes" : ["operator"],
+    "pattern" : "\\+|\\!|\\-|&lt;|&gt;|&|\\||\\*|\\="
+  },
+  {
+    "scopes" : ["function", "call"],
+    "pattern" : "\\b(bs|divmod|input|open|staticmethod|all|enumerate|int|ord|str|any|eval|isinstance|pow|sum|basestring|execfile|issubclass|print|super|bin|file|iter|property|tuple|bool|filter|len|range|type|bytearray|float|list|raw_input|unichr|callable|format|locals|reduce|unicode|chr|frozenset|long|reload|vars|classmethod|getattr|map|repr|xrange|cmp|globals|max|reversed|zip|compile|hasattr|memoryview|round|__import__|complex|hash|min|set|apply|delattr|help|next|setattr|buffer|dict|hex|object|slice|coerce|dir|id|oct|sorted|intern)(?=\\()"
+  },
+  {
+    "scopes" : ["url"],
+    "pattern" : "((https?|mailto|ftp|file)://([-\\w\\.]+)+(:\\d+)?(/([\\w/_\\.]*(\\?\\S+)?)?)?)"
+  },
+  {
+    "scopes" : ["attribute"],
+    "pattern" : "(def)\\s+((__)?\\w+)(?=\\()"
+  },
+  {
+    "scopes" : ["type"],
+    "pattern" : "(class)\\s+(\\w+)\\((\\w+?)\\)"
+  }
+]
+ 

@@ -62,6 +62,7 @@
   : (!strcmp(extension, "m") | !strcmp(extension, "mm") | !strcmp(extension, "h")) ? @"objectivec"
   : !strcmp(extension, "java") ? @"java"
   : !strcmp(extension, "php") ? @"php"
+  : !strcmp(extension, "py") ? @"python"
   : @"generic";
 }
 
